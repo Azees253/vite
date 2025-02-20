@@ -5,8 +5,8 @@ import "./index.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
-import Blogs from "./pages/Blog";
 import Contact from "./pages/contact";
+import About from "./pages/About";
 
 export default function App() {
   return (
@@ -14,7 +14,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="Home" element={<Home />} />
-          <Route path="blogs" element={<Blogs />} />
+          <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>

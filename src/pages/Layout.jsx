@@ -9,7 +9,7 @@ const Layout = () => {
             <a href="Home">Home</a>
           </li>
           <li>
-            <a href="blogs">blogs</a>
+            <a href="about">About</a>
           </li>
           <li>
             <a href="contact">Contact</a>
