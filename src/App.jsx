@@ -6,9 +6,9 @@ import Contact from "./pages/contact";
 
 export default function App() {
   return (
-    <Routes>
+    <Routes basename="/vite">
       <Route path="/" element={<Layout />}>
-        <Route path="Home" element={<Home />} />
+        <Route index element={<Home />} />
         <Route path="blogs" element={<Blogs />} />
         <Route path="contact" element={<Contact />} />
       </Route>
