@@ -19,9 +19,10 @@
   cursor: pointer;
 }
 .header-img {
-  width: 80%;
+  width: 50%;
   height: 80%;
   border-radius: 10px;
+  background-color: blue;
 }
 .service {
   padding: 30px;

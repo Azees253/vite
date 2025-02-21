@@ -4,7 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { CiFacebook } from "react-icons/ci";
 import { BsTwitter } from "react-icons/bs";
 import "./pagesStyles/Home.css";
-import Img from "./images/img1.jpg";
+import Img from "../images/img2.jpg";
 
 export default function Home() {
   return (
@@ -77,10 +77,7 @@ export default function Home() {
 
       <div className="new-arrivel">
         <div className="new-arrivel-container">
-          <img
-            className="new-arrivel-img"
-            src="https://media.istockphoto.com/id/1092199330/photo/variety-of-colorful-shirts-hanging-on-the-wooden-hangers-close-up.jpg?s=612x612&w=0&k=20&c=BB524K8b0HuzzmyKeDf1Jt4CbZCjlGwLnuCOeFUlOGo="
-          />
+          <img className="new-arrivel-img" src={Img} />
           <button>
             Shop Now{" "}
             <i>
