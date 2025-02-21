@@ -4,6 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { CiFacebook } from "react-icons/ci";
 import { BsTwitter } from "react-icons/bs";
 import "./pagesStyles/Home.css";
+import Img from "./images/img1.jpg";
 
 export default function Home() {
   return (
@@ -15,10 +16,7 @@ export default function Home() {
           <button>Shop</button>
         </div>
         <div>
-          <img
-            className="header-img"
-            src="https://media.istockphoto.com/id/1301194623/photo/asian-chinese-male-hand-holding-menswear-shirt-at-clothing-store-choosing-the-right-one.jpg?s=612x612&w=0&k=20&c=cPS28dY3VIJ9YcfY4WQXuxMbOQjjSD9zKbD_I9jQwXY="
-          />
+          <img className="header-img" src={Img} />
         </div>
       </div>
 
