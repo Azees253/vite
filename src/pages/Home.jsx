@@ -4,7 +4,9 @@ import { FaInstagram } from "react-icons/fa";
 import { CiFacebook } from "react-icons/ci";
 import { BsTwitter } from "react-icons/bs";
 import "./pagesStyles/Home.css";
-import Img from "../images/img2.jpg";
+import headerImg from "../assets/images/img1.jpg";
+import img1 from "../assets/images/img2.jpg";
+import img2 from "../assets/images/img3.jpg";
 
 export default function Home() {
   return (
@@ -16,7 +18,7 @@ export default function Home() {
           <button>Shop</button>
         </div>
         <div>
-          <img className="header-img" src={Img} />
+          <img className="header-img" src={headerImg} />
         </div>
       </div>
 
@@ -77,7 +79,7 @@ export default function Home() {
 
       <div className="new-arrivel">
         <div className="new-arrivel-container">
-          <img className="new-arrivel-img" src={Img} />
+          <img className="new-arrivel-img" src={img1} />
           <button>
             Shop Now{" "}
             <i>
@@ -86,10 +88,7 @@ export default function Home() {
           </button>
         </div>
         <div className="new-arrivel-container">
-          <img
-            className="new-arrivel-img"
-            src="https://media.istockphoto.com/id/2047679178/photo/set-of-four-colored-cotton-t-shirts-mockups-isolated-on-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=wo9bAKmONZEWXxQAaNfV0vVjokX6tABBTNhJk7QGOPg="
-          />
+          <img className="new-arrivel-img" src={img2} />
           <button>
             Shop Now{" "}
             <i>
